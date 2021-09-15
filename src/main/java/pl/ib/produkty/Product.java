@@ -17,17 +17,11 @@ public class Product {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
 
     public ProductCategory getCategory() {
         return category;
     }
 
-    public void setCategory(ProductCategory category) {
-        this.category = category;
-    }
 
     public Product(String name, double price, ProductCategory category) {
         this.name = name;
